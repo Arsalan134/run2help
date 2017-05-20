@@ -3,25 +3,80 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DBF22CE4DE6B7B8310478AC /* Pods_run2help.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7615DB7D822893C39428B2B /* Pods_run2help.framework */; };
+		990475A41E996D610039A1A1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990475A31E996D610039A1A1 /* Card.swift */; };
+		990475A71E9974140039A1A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990475A61E9974140039A1A1 /* Extensions.swift */; };
+		990A05071ED09411008BD237 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 990A05061ED09411008BD237 /* pin.png */; };
+		9912BBD31E9B4EF2000F73C4 /* registerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912BBD21E9B4EF2000F73C4 /* registerHandler.swift */; };
+		991530A81EADDB1A00D110B0 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991530A71EADDB1A00D110B0 /* CustomSegue.swift */; };
+		991530AA1EADF3AE00D110B0 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991530A91EADF3AE00D110B0 /* CircularTransition.swift */; };
+		9936106A1E92693A000676F8 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993610691E92693A000676F8 /* FacebookManager.swift */; };
+		993CE4141E8A8609002B5EA1 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993CE4131E8A8609002B5EA1 /* UserProfileViewController.swift */; };
+		99425BF81E95563B00D210A8 /* openSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99425BF51E95563B00D210A8 /* openSansBold.ttf */; };
+		99425BF91E95563B00D210A8 /* openSansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99425BF61E95563B00D210A8 /* openSansLight.ttf */; };
+		99425BFA1E95563B00D210A8 /* openSansSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99425BF71E95563B00D210A8 /* openSansSemiBold.ttf */; };
+		99443B941E8AE537004DABD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99443B931E8AE537004DABD1 /* LoginViewController.swift */; };
+		99443B971E8AE6C9004DABD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99443B961E8AE6C9004DABD1 /* User.swift */; };
+		997AC49A1EAD0A540062393D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AC4991EAD0A540062393D /* GradientView.swift */; };
+		998A48F41EBA3ADD00DD667D /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99573A6E1E8D8C6A004AAEF7 /* HealthKitManager.swift */; };
+		998A48F51EBA3B0300DD667D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99654D7A1E92C1810054B87F /* HealthKit.framework */; };
+		998E8E9E1E8A44100087C302 /* HowMuchPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998E8E9D1E8A44100087C302 /* HowMuchPopupViewController.swift */; };
+		99906F751E8A917400676B70 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99906F741E8A917400676B70 /* RoundButton.swift */; };
 		999E77B61E8826BC0018A730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999E77B51E8826BC0018A730 /* AppDelegate.swift */; };
-		999E77B81E8826BC0018A730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999E77B71E8826BC0018A730 /* ViewController.swift */; };
 		999E77BB1E8826BC0018A730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999E77B91E8826BC0018A730 /* Main.storyboard */; };
 		999E77BD1E8826BC0018A730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 999E77BC1E8826BC0018A730 /* Assets.xcassets */; };
 		999E77C01E8826BC0018A730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999E77BE1E8826BC0018A730 /* LaunchScreen.storyboard */; };
+		999E77C81E8827440018A730 /* DonationItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999E77C71E8827440018A730 /* DonationItemView.xib */; };
+		999E77CA1E882A030018A730 /* DonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999E77C91E882A030018A730 /* DonationViewController.swift */; };
+		999E77CC1E882AAA0018A730 /* DonationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999E77CB1E882AAA0018A730 /* DonationItemView.swift */; };
+		99A9B73C1E8ADB8400275617 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99A9B73B1E8ADB8400275617 /* GoogleService-Info.plist */; };
+		99BDA0D71EA388FD007AFA59 /* DownloadUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BDA0D61EA388FD007AFA59 /* DownloadUser.swift */; };
+		99C1F3121EAA5C3700AAF35A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C1F3111EAA5C3700AAF35A /* MapKit.framework */; };
+		99CA9E561E92845B00AA97BE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CA9E551E92845B00AA97BE /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ADA579208A57FD387A84386 /* Pods-run2help.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-run2help.debug.xcconfig"; path = "Pods/Target Support Files/Pods-run2help/Pods-run2help.debug.xcconfig"; sourceTree = "<group>"; };
+		990475A31E996D610039A1A1 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		990475A61E9974140039A1A1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		990A05061ED09411008BD237 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		9912BBD21E9B4EF2000F73C4 /* registerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerHandler.swift; sourceTree = "<group>"; };
+		991530A71EADDB1A00D110B0 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		991530A91EADF3AE00D110B0 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		9928B0821EA9F82E00B163EE /* TestStepCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStepCounter.swift; sourceTree = "<group>"; };
+		993610691E92693A000676F8 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		993CE4131E8A8609002B5EA1 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		99425BF51E95563B00D210A8 /* openSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = openSansBold.ttf; sourceTree = "<group>"; };
+		99425BF61E95563B00D210A8 /* openSansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = openSansLight.ttf; sourceTree = "<group>"; };
+		99425BF71E95563B00D210A8 /* openSansSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = openSansSemiBold.ttf; sourceTree = "<group>"; };
+		99443B931E8AE537004DABD1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		99443B961E8AE6C9004DABD1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		99573A6E1E8D8C6A004AAEF7 /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		99573A771E8D9ADC004AAEF7 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		99654D7A1E92C1810054B87F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		997AC4991EAD0A540062393D /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		998DFF021EAA49BF005B0719 /* run2help.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = run2help.entitlements; sourceTree = "<group>"; };
+		998E8E9D1E8A44100087C302 /* HowMuchPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HowMuchPopupViewController.swift; path = ../HowMuchPopupViewController.swift; sourceTree = "<group>"; };
+		99906F741E8A917400676B70 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		999E77B21E8826BC0018A730 /* run2help.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = run2help.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		999E77B51E8826BC0018A730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		999E77B71E8826BC0018A730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		999E77BA1E8826BC0018A730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		999E77BC1E8826BC0018A730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		999E77BF1E8826BC0018A730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		999E77C11E8826BC0018A730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		999E77C71E8827440018A730 /* DonationItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonationItemView.xib; sourceTree = "<group>"; };
+		999E77C91E882A030018A730 /* DonationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationViewController.swift; sourceTree = "<group>"; };
+		999E77CB1E882AAA0018A730 /* DonationItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationItemView.swift; sourceTree = "<group>"; };
+		99A9B73B1E8ADB8400275617 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99BDA0D61EA388FD007AFA59 /* DownloadUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadUser.swift; sourceTree = "<group>"; };
+		99C1F3111EAA5C3700AAF35A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		99CA9E551E92845B00AA97BE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B36245E858A4B7B2AB2B521F /* Pods-run2help.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-run2help.release.xcconfig"; path = "Pods/Target Support Files/Pods-run2help/Pods-run2help.release.xcconfig"; sourceTree = "<group>"; };
+		F7615DB7D822893C39428B2B /* Pods_run2help.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_run2help.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +84,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998A48F51EBA3B0300DD667D /* HealthKit.framework in Frameworks */,
+				99C1F3121EAA5C3700AAF35A /* MapKit.framework in Frameworks */,
+				4DBF22CE4DE6B7B8310478AC /* Pods_run2help.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CDF66599145862C43C424E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ADA579208A57FD387A84386 /* Pods-run2help.debug.xcconfig */,
+				B36245E858A4B7B2AB2B521F /* Pods-run2help.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		886174B5A0AD66A1A80AC18B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C1F3111EAA5C3700AAF35A /* MapKit.framework */,
+				99654D7A1E92C1810054B87F /* HealthKit.framework */,
+				F7615DB7D822893C39428B2B /* Pods_run2help.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		990475A51E9974020039A1A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				991530A91EADF3AE00D110B0 /* CircularTransition.swift */,
+				991530A71EADDB1A00D110B0 /* CustomSegue.swift */,
+				99906F741E8A917400676B70 /* RoundButton.swift */,
+				990475A61E9974140039A1A1 /* Extensions.swift */,
+				997AC4991EAD0A540062393D /* GradientView.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		9912BBD41E9B4EF8000F73C4 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				9912BBD21E9B4EF2000F73C4 /* registerHandler.swift */,
+				99BDA0D61EA388FD007AFA59 /* DownloadUser.swift */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		99425BFB1E95564000D210A8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				99425BF51E95563B00D210A8 /* openSansBold.ttf */,
+				99425BF61E95563B00D210A8 /* openSansLight.ttf */,
+				99425BF71E95563B00D210A8 /* openSansSemiBold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		99443B951E8AE6C1004DABD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99443B961E8AE6C9004DABD1 /* User.swift */,
+				990475A31E996D610039A1A1 /* Card.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		994A01DB1E8DA4C1000C852A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				999E77CB1E882AAA0018A730 /* DonationItemView.swift */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		99654D771E92ADA10054B87F /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				993610691E92693A000676F8 /* FacebookManager.swift */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
 		999E77A91E8826BB0018A730 = {
 			isa = PBXGroup;
 			children = (
-				999E77B41E8826BC0018A730 /* run2help */,
+				886174B5A0AD66A1A80AC18B /* Frameworks */,
+				3CDF66599145862C43C424E7 /* Pods */,
 				999E77B31E8826BC0018A730 /* Products */,
+				999E77B41E8826BC0018A730 /* run2help */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +189,39 @@
 		999E77B41E8826BC0018A730 /* run2help */ = {
 			isa = PBXGroup;
 			children = (
-				999E77B51E8826BC0018A730 /* AppDelegate.swift */,
-				999E77B71E8826BC0018A730 /* ViewController.swift */,
-				999E77B91E8826BC0018A730 /* Main.storyboard */,
-				999E77BC1E8826BC0018A730 /* Assets.xcassets */,
-				999E77BE1E8826BC0018A730 /* LaunchScreen.storyboard */,
+				998DFF021EAA49BF005B0719 /* run2help.entitlements */,
+				990A05061ED09411008BD237 /* pin.png */,
+				990475A51E9974020039A1A1 /* Helpers */,
+				99425BFB1E95564000D210A8 /* Fonts */,
+				99A9B73B1E8ADB8400275617 /* GoogleService-Info.plist */,
 				999E77C11E8826BC0018A730 /* Info.plist */,
+				999E77B51E8826BC0018A730 /* AppDelegate.swift */,
+				99573A6E1E8D8C6A004AAEF7 /* HealthKitManager.swift */,
+				9928B0821EA9F82E00B163EE /* TestStepCounter.swift */,
+				99573A771E8D9ADC004AAEF7 /* TimerViewController.swift */,
+				999E77BC1E8826BC0018A730 /* Assets.xcassets */,
+				999E77C71E8827440018A730 /* DonationItemView.xib */,
+				99654D771E92ADA10054B87F /* Facebook */,
+				999E77BE1E8826BC0018A730 /* LaunchScreen.storyboard */,
+				999E77B91E8826BC0018A730 /* Main.storyboard */,
+				99443B951E8AE6C1004DABD1 /* Model */,
+				994A01DB1E8DA4C1000C852A /* UIView */,
+				99A9B7371E8AD78600275617 /* ViewControllers */,
+				9912BBD41E9B4EF8000F73C4 /* Handlers */,
 			);
 			path = run2help;
+			sourceTree = "<group>";
+		};
+		99A9B7371E8AD78600275617 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				99CA9E551E92845B00AA97BE /* MainViewController.swift */,
+				999E77C91E882A030018A730 /* DonationViewController.swift */,
+				998E8E9D1E8A44100087C302 /* HowMuchPopupViewController.swift */,
+				99443B931E8AE537004DABD1 /* LoginViewController.swift */,
+				993CE4131E8A8609002B5EA1 /* UserProfileViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +231,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 999E77C41E8826BC0018A730 /* Build configuration list for PBXNativeTarget "run2help" */;
 			buildPhases = (
+				6D894A6C5F7CB8549FE06113 /* [CP] Check Pods Manifest.lock */,
 				999E77AE1E8826BB0018A730 /* Sources */,
 				999E77AF1E8826BB0018A730 /* Frameworks */,
 				999E77B01E8826BB0018A730 /* Resources */,
+				F3959B8560624BAD9B594675 /* [CP] Embed Pods Frameworks */,
+				33958848BBFC517F96D5F9A1 /* [CP] Copy Pods Resources */,
+				99BDA0DC1EA3D06C007AFA59 /* Upload Crash Symbols to Crash Reporting */,
 			);
 			buildRules = (
 			);
@@ -96,13 +260,27 @@
 				TargetAttributes = {
 					999E77B11E8826BB0018A730 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = G7CN72P9F4;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
 			buildConfigurationList = 999E77AD1E8826BB0018A730 /* Build configuration list for PBXProject "run2help" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,18 +305,103 @@
 				999E77C01E8826BC0018A730 /* LaunchScreen.storyboard in Resources */,
 				999E77BD1E8826BC0018A730 /* Assets.xcassets in Resources */,
 				999E77BB1E8826BC0018A730 /* Main.storyboard in Resources */,
+				99425BF81E95563B00D210A8 /* openSansBold.ttf in Resources */,
+				99425BF91E95563B00D210A8 /* openSansLight.ttf in Resources */,
+				999E77C81E8827440018A730 /* DonationItemView.xib in Resources */,
+				990A05071ED09411008BD237 /* pin.png in Resources */,
+				99A9B73C1E8ADB8400275617 /* GoogleService-Info.plist in Resources */,
+				99425BFA1E95563B00D210A8 /* openSansSemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33958848BBFC517F96D5F9A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-run2help/Pods-run2help-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D894A6C5F7CB8549FE06113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99BDA0DC1EA3D06C007AFA59 /* Upload Crash Symbols to Crash Reporting */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Upload Crash Symbols to Crash Reporting";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Replace this with the GOOGLE_APP_ID from your GoogleService-Info.plist file\nGOOGLE_APP_ID=1:919964188401:ios:716d2a4b137b92d3\n\n# Replace the /Path/To/ServiceAccount.json with the path to the key you just downloaded\n\"${PODS_ROOT}\"/FirebaseCrash/upload-sym \"${PROJECT_DIR}/Keys/run2help-a881d-firebase-crashreporting-fa0np-93886ababa.json\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3959B8560624BAD9B594675 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-run2help/Pods-run2help-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		999E77AE1E8826BB0018A730 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				999E77B81E8826BC0018A730 /* ViewController.swift in Sources */,
+				998A48F41EBA3ADD00DD667D /* HealthKitManager.swift in Sources */,
+				997AC49A1EAD0A540062393D /* GradientView.swift in Sources */,
+				99906F751E8A917400676B70 /* RoundButton.swift in Sources */,
+				999E77CC1E882AAA0018A730 /* DonationItemView.swift in Sources */,
+				993CE4141E8A8609002B5EA1 /* UserProfileViewController.swift in Sources */,
+				9912BBD31E9B4EF2000F73C4 /* registerHandler.swift in Sources */,
+				998E8E9E1E8A44100087C302 /* HowMuchPopupViewController.swift in Sources */,
+				9936106A1E92693A000676F8 /* FacebookManager.swift in Sources */,
+				991530A81EADDB1A00D110B0 /* CustomSegue.swift in Sources */,
+				99CA9E561E92845B00AA97BE /* MainViewController.swift in Sources */,
+				990475A41E996D610039A1A1 /* Card.swift in Sources */,
+				990475A71E9974140039A1A1 /* Extensions.swift in Sources */,
+				999E77CA1E882A030018A730 /* DonationViewController.swift in Sources */,
+				991530AA1EADF3AE00D110B0 /* CircularTransition.swift in Sources */,
+				99BDA0D71EA388FD007AFA59 /* DownloadUser.swift in Sources */,
+				99443B941E8AE537004DABD1 /* LoginViewController.swift in Sources */,
 				999E77B61E8826BC0018A730 /* AppDelegate.swift in Sources */,
+				99443B971E8AE6C9004DABD1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +520,13 @@
 		};
 		999E77C51E8826BC0018A730 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADA579208A57FD387A84386 /* Pods-run2help.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = run2help/run2help.entitlements;
 				DEVELOPMENT_TEAM = G7CN72P9F4;
 				INFOPLIST_FILE = run2help/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Arsalan.run2help;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +536,13 @@
 		};
 		999E77C61E8826BC0018A730 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36245E858A4B7B2AB2B521F /* Pods-run2help.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = run2help/run2help.entitlements;
 				DEVELOPMENT_TEAM = G7CN72P9F4;
 				INFOPLIST_FILE = run2help/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Arsalan.run2help;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +569,7 @@
 				999E77C61E8826BC0018A730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

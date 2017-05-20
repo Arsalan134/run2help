@@ -1,0 +1,14 @@
+RUN2HELP TEXT.
+FONT: OPEN SANS LIGHT, OPEN SANS SEMIBOLD, OPEN SANS BOLD
+
+MAIN PAGE:
+3.7KM - size 36
+4885 - size 18
+
+125 - size 24
+Calories - size 14
+
+Donate now - size 18
+
+Some ingredients - size 14
+
